@@ -19,6 +19,7 @@ public class Operateur {
         int z=10;
         int w=12;
         x=1+5;
+        int t=x++; // 7
         z-=x; // z=z-x
         y=4*6;
         x+=y; // x=x+y

@@ -30,7 +30,9 @@ public class Generale {
         //double xz=z; demande d'initialisation
       //  char c="h"; interdit => String ""
       char c='h'; //correcte
+      
       String mot="bonjour";
+      
       String chiffre="123";
       int convert=Integer.parseInt(chiffre); //conversion de chaine
       

@@ -22,7 +22,17 @@ public class Whiles {
             i--;
         
         }
-        
+       int x=1;
+       int a;
+        while (x<=10) {
+        if (x == 7) {
+        System.out.println("Division par zéro!");
+        continue; // ignorer le calcule et continuer
+        }
+        a = 1/(x-7);
+        System.out.println(a);
+        x++;
+        }
         
     }
     

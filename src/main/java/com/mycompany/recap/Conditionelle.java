@@ -19,11 +19,12 @@ public class Conditionelle {
     public static void main(String[] args) {
         // TODO code application logic here
         int x=10; //instruction simple
+        
         {
         int y=20;
         y*=2;
         System.out.println("y="+y);  
-        } //bloc
+        } //bloc {}
         if(x>0) // si () condition =vrai => traitement
             System.out.println(x+" est positif"); // instruction seul => pas besoin de bloc {}
         if(x>3) // si () condition =vrai => traitement
@@ -39,7 +40,7 @@ public class Conditionelle {
         switch (jour) {
             case 1:
                 System.out.println("lundi");
-                break; // terminer la boucle
+                break; // terminer la boucle et en sortir
             case 2:
                 System.out.println("mardi"); 
              break;

@@ -19,8 +19,9 @@ public class Repetition {
         //String chaine ="hello world";
         System.out.println("incrementation");
         for (int i=1; i<6; i++) { // for (initialisation ; condition; pas)
-System.out.println(i);
-}
+            
+                System.out.println(i);
+            }
         System.out.println("décrementation");
       for (int j=6; j>1; j--) { //declaration interne)
 System.out.println(j);

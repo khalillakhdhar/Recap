@@ -29,6 +29,9 @@ System.out.println(j);
         for (k=1; k<6; k+=2) { // declaration externe
 System.out.println(k);
 }
+        
+        
+        
       
     }
     

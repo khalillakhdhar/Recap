@@ -35,6 +35,7 @@ public class Generale {
       
       String chiffre="123";
       int convert=Integer.parseInt(chiffre); //conversion de chaine
+      double convd=Double.parseDouble(chiffre); //Type.parseType(chaine);
       
       String valeur=String.valueOf(t2); // convertir tout les types en chaine
 

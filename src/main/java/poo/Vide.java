@@ -40,6 +40,7 @@ public class Vide {
     public void puissance() // methode sans retour (exécution directe)
     {
         System.out.println(x*x);
+        
     
     }
     public int calculedirecte() // fonction qui retourne un entier (besoin de réexploitation)
